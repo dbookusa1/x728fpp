@@ -126,8 +126,8 @@ while True:
          print "Battery LOW"
  print "******************"
  time.sleep(2)
-' > /home/pi/x728bat.py
-sudo chmod +x /home/pi/x728bat.py
+' > /home/fpp/x728bat.py
+sudo chmod +x /home/fpp/x728bat.py
 
 #X728 AC Power loss / power adapter failture detection
 #!/bin/bash
@@ -154,6 +154,6 @@ print "3.When power adapter disconnected, you will see: AC Power Loss or Power A
 print "4.When power adapter disconnected, you will see: AC Power OK, Power Adapter OK"
 
 raw_input("Testing Started")
-' > /home/pi/x728pld.py
-sudo chmod +x /home/pi/x728pld.py
+' > /home/fpp/x728pld.py
+sudo chmod +x /home/fpp/x728pld.py
 
